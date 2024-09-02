@@ -1,0 +1,144 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: Work Sans;
+}
+
+.header {
+  background-image: url("../images/banner/banner3.png");
+  /* think-out-box-concepts-with-lightbulb-box 1 */
+  width: 1600px;
+  height: 800px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 2421px;
+}
+
+.banner {
+  margin: 0px 50px 400px 800px;
+  padding: 200px 30px 0px 200px;
+  text-align: right;
+}
+
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  margin-bottom: 24px;
+}
+
+.banner-description {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  margin-bottom: 32px;
+}
+
+.btn-primary{
+    border-radius: 5px; 
+    background: rgb(253, 110, 10);
+    border: 0;
+    color: rgb(255, 255, 255);
+
+font-size: 20px;
+font-weight: 700;
+padding: 10px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Failure year */
+.failure-year{
+display: flex;
+background: rgb(255, 248, 243);
+margin-top: 150px;
+
+}
+
+.failure-year-container{
+    margin-top: 300px;
+}
+
+.failure-title{
+    color: rgb(21, 20, 20);
+font-size: 40px;
+}
+
+.failure-description,.failure-list{
+    color: rgb(68, 67, 67);
+}
+
+/* my plans style */
+.my-plans{
+    margin-top: 100px;
+}
+
+.my-plans-title{
+    color: rgb(21, 20, 20);
+font-size: 40px;
+text-align: center;
+}
+
+/* skill style */
+
+.skill-container{
+    display: flex;
+    margin-top: 60px;
+    gap: 24px;
+}
+
+.skill{
+    padding: 72px;
+    border-radius: 5px; 
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+
+.skill-icon{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.skill-title{
+    text-align: center;
+    color: rgb(21, 20, 20);
+font-size: 20px;
+}
+
+.skill-description{
+    color: rgb(115, 114, 114);
+font-size: 16px;
+text-align: center;
+}
+
+/* positive mindset style */
+.positive-mindset{
+    background-image: url('../images/watch.png');
+    margin-top: 200px;
+    width: 1140px;
+height: 300px;
+}
+
+.positive-mindset-title{
+    color: rgb(55, 4, 241);
+font-size: 40px;
+padding-top: 100px;
+padding-left: 64px;
+max-width: 300px;
+}
+
+.btn-primary2{
+    border-radius: 5px; 
+    background: rgb(253, 110, 10);
+    border: 0;
+    color: rgb(255, 255, 255);
+
+font-size: 20px;
+font-weight: 700;
+padding: 10px;
+    margin-left: 64px;
+}
+
