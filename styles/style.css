@@ -9,10 +9,7 @@ body {
   /* think-out-box-concepts-with-lightbulb-box 1 */
   width: 1600px;
   height: 800px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 2421px;
+  margin: 0px;
 }
 
 .banner {
@@ -34,8 +31,10 @@ body {
 }
 
 .btn-primary{
-    border-radius: 5px; 
-    background: rgb(253, 110, 10);
+    
+    border-radius: 8px;
+
+background: rgb(0, 95, 172);
     border: 0;
     color: rgb(255, 255, 255);
 
@@ -117,22 +116,26 @@ text-align: center;
 /* positive mindset style */
 .positive-mindset{
     background-image: url('../images/watch.png');
-    margin-top: 200px;
     width: 1140px;
 height: 300px;
+margin-top: 150px;
+margin-bottom: 150px;
 }
 
 .positive-mindset-title{
-    color: rgb(55, 4, 241);
+    color: rgb(255, 255, 255);
+    /* color: rgb(55, 4, 241); */
 font-size: 40px;
-padding-top: 100px;
+padding-top: 80px;
 padding-left: 64px;
 max-width: 300px;
 }
 
 .btn-primary2{
-    border-radius: 5px; 
-    background: rgb(253, 110, 10);
+     
+    border-radius: 8px;
+
+background: rgb(0, 95, 172);
     border: 0;
     color: rgb(255, 255, 255);
 
@@ -142,3 +145,71 @@ padding: 10px;
     margin-left: 64px;
 }
 
+/* footer style */
+footer{
+    width: 1600px;
+height: 577px;
+/* Dark 01 */
+background: rgb(21, 20, 20);
+display: flex;
+justify-content: space-between;
+
+}
+
+.footer-column-future{
+    color: rgb(248, 248, 248);
+font-size: 45px;
+padding: 130px 230px 0px 230px;
+}
+
+.footer-column-subscribe{
+    color: rgb(248, 248, 248);
+    padding: 150px 431px 0px 0px;
+    font-size: 25px;
+}
+
+.footer-column-description{
+    color: rgb(255, 255, 255);
+  text-align: justify;
+  padding-left: 230px;
+  max-width: 400px;
+}
+
+.footer-column-contact{
+    color: rgb(255, 255, 255);
+    padding-left: 230px;
+}
+
+.social-link{
+    padding-left: 230px;
+}
+
+.social-link-design{
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.footer-column-email{
+    display: block;
+    color: rgb(248, 248, 248);
+    
+    border-radius: 5px; 
+    /* White Color */
+        background: rgb(255, 255, 255);
+        border: 0;
+        width: 300px;
+        height: 45px;
+        margin-bottom: 20px;
+}
+
+.btn-primary3{
+    border-radius: 8px;
+
+    background: rgb(0, 95, 172);
+        border: 0;
+    color: rgb(255, 255, 255);
+    
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+}
